@@ -54,7 +54,7 @@ const AttendanceChart = () => {
       <div className="h-[90%] w-full">
         <ResponsiveContainer>
           <BarChart
-            width={800}
+            width={500}
             height={300}
             data={data}
             margin={{
