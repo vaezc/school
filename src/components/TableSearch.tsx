@@ -12,6 +12,7 @@ const TableSearch = () => {
     const search = formData.get("search") as string;
     const params = new URLSearchParams(window.location.search);
     params.set("search", search);
+    params.set("page", "1");
     router.push(`${window.location.pathname}?${params.toString()}`);
   };
 
